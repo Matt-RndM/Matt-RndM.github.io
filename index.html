@@ -1,11 +1,92 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Matt McClements</title>
-</head>
-<body>
-<p>
-Hello world
-</p>
-</body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Matt McClements</title>
+        <script src="js-files/dropdown.js"></script>
+        <link rel="stylesheet" type="text/css" href="css-files/homepage-css-files/header.css">
+        <link rel="stylesheet" type="text/css" href="css-files/homepage-css-files/footer.css">
+        <link rel="stylesheet" type="text/css" href="css-files/homepage-css-files/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Literata:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@400;500;700&family=Source+Serif+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <header>
+            
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">
+                    <hr class="hamburger">
+                    <hr class="hamburger">
+                    <hr class="hamburger">
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                    <button class="dropdown-options" id="dropdown-close" onclick="myFunction()">
+                        <hr class="hamburger" id="cross1">
+                        <hr class="hamburger" id="cross2">
+                    </button>
+                    <a href="travel.html" class="dropdown-options" id="travel-option">
+                        Travel
+                    </a>
+                    <a href="coding.html" class="dropdown-options">
+                        Coding
+                    </a>
+                    <a href="fitness.html" class="dropdown-options">
+                        Fitness
+                    </a>
+                    <a href="about-me.html" class="dropdown-options">
+                        About me
+                    </a>
+                </div>
+            </div>
+                
+            
+            
+        </header>
+        <main>
+            <p class="homepage-title" id="top-word">Matt</p>
+            <img src="images/pic-5.JPEG" class="homepage-pic">
+            <p class="homepage-title" id="bottom-word">McClements</p>
+            <vl class="vert-line"></vl>
+        </main>
+        <footer class="footer">
+            <div class="link-container">
+                <a class="link" href="travel.html">
+                    Travel
+                </a>
+                <a class="link" href="coding.html">
+                    Coding
+                </a>
+                <a class="link" href="fitness.html"> 
+                    Fitness
+                </a>
+                <a class="link" href="about-me.html">
+                    About me
+                </a>
+            </div>
+            <div class="social-container">
+                <a class="social-link" href="https://www.instagram.com/mattmcclements13/" target="_blank">
+                    <img class="social-icon" src="icons/instagram.png">
+                </a>
+            
+                <a class="social-link" href="https://twitter.com/MattM1310" target="_blank">
+                    <img class="social-icon" src="icons/twitter.png">
+                </a>
+                    
+                <a class="social-link" href="https://github.com/Matt-RndM" target="_blank">
+                    <img class="social-icon" src="icons/github.png">
+                </a>
+                <a class="social-link" href="" target="_blank">
+                    <img class="social-icon" src="icons/email.png">
+                </a>
+            </div>
+            <p class="copyright">
+                Matt McClements &#169 2023
+            </p>
+            
+            
+
+        </footer>
+    </body>
 </html>
